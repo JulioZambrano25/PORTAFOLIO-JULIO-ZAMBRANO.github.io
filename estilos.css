@@ -55,3 +55,39 @@ th {
 td {
     color: #f4f6fa;
 }
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 98%;
+        padding: 10px;
+        margin: 10px auto;
+        border-radius: 0;
+    }
+    img {
+        width: 100px;
+    }
+    table {
+        font-size: 14px;
+        overflow-x: auto;
+        display: block;
+    }
+    th, td {
+        padding: 6px;
+        font-size: 13px;
+    }
+    h1, h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 5px;
+    }
+    img {
+        width: 70px;
+    }
+    h1, h2 {
+        font-size: 1em;
+    }
+}
