@@ -1,21 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(87, 123, 193);
+    background-color: #e5e7eb; /* plomo claro */
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(255, 235, 0);
+    background-color: #5a5a5a; /* plomo semi oscuro */
+    color: #f4f6fa; /* letra clara para contraste */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 h1, h2 {
-    color: #333;
+    color: #f4f6fa; /* encabezados claros */
+}
+
+.container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 img {
@@ -30,14 +38,20 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    text-align: center;
 }
 
 th, td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #f5f5f5;
+    background-color: #757575; /* plomo más claro para tabla */
+    color: #f4f6fa;
+}
+
+td {
+    color: #f4f6fa;
 }
